@@ -502,7 +502,7 @@
 			}
 			//float dither = (random(gl_FragCoord.xy)) / 255.0;
 			//vec4 ditherValues = vec4(dither, dither, dither, 0.0);
-			gl_FragColor = vec4(cl / 3.2, 1.);
+			gl_FragColor = vec4(cl / 4.5, 1.);
 		}
 	`;
 
@@ -572,7 +572,7 @@
 			const verticalScrollLoc = gl.getUniformLocation(program, 'u_scrollY');
 
 			function resize() {
-				var scale = 1;
+				var scale = 0.5;
 				var ratio = window.devicePixelRatio * scale;
 				const width = canvas.clientWidth * ratio;
 				const height = canvas.clientHeight * ratio;

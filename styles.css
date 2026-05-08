@@ -24,12 +24,12 @@ canvas {
 }
 
 :root {
-	--cyan: #00f5ff;
-	--magenta: #ff00aa;
-	--yellow: #ffe600;
-	--dark: #080810;
-	--dark2: #0d0d1a;
-	--dark3: #13132b;
+	--cyan: #3db460;
+	--magenta: #603DB4;
+	--yellow: #B4603D;
+	--dark: #ffffff14;
+	--dark2: var(--dark);
+	--dark3: var(--dark);
 	--text: #ffffff;
 	--muted: #bbbbbb;
 	--pixel: "Enriqueta", serif;
