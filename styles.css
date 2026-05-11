@@ -396,7 +396,7 @@ section {
 
 .section-label {
 	font-family: var(--pixel);
-	font-size: 0.6rem;
+	font-size: 1.6rem;
 	color: var(--cyan);
 	letter-spacing: 3px;
 }
@@ -873,7 +873,7 @@ section {
 
 .timeline-dot {
 	position: absolute;
-	left: -2.5rem;
+	left: -2.3rem;
 	top: 4px;
 	width: 10px;
 	height: 10px;
@@ -885,7 +885,7 @@ section {
 
 .timeline-date {
 	font-family: var(--mono);
-	font-size: 0.75rem;
+	font-size: 1.00rem;
 	color: var(--cyan);
 	letter-spacing: 2px;
 	margin-bottom: 0.5rem;
@@ -893,7 +893,7 @@ section {
 
 .timeline-role {
 	font-family: var(--pixel);
-	font-size: 0.65rem;
+	font-size: 0.95rem;
 	color: #fff;
 	line-height: 1.8;
 	margin-bottom: 0.3rem;
@@ -901,8 +901,8 @@ section {
 
 .timeline-company {
 	font-family: var(--mono);
-	font-size: 0.85rem;
-	color: var(--magenta);
+	font-size: 1.05rem;
+	color: var(--mono);
 	margin-bottom: 0.8rem;
 }
 
