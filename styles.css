@@ -54,6 +54,7 @@ canvas {
 
 html {
 	scroll-behavior: auto;
+	scroll-padding-top: 3rem;
 	font-size: 100%;
 }
 
@@ -104,9 +105,10 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	padding: 1.2rem 3rem;
-	background: rgba(8, 8, 16, 0.85);
+	background: rgba(8, 8, 16, 0.00);
 	backdrop-filter: blur(10px);
 	border-bottom: 1px solid rgba(0, 245, 255, 0.15);
+	justify-content: center;
 }
 
 .nav-logo {
@@ -302,7 +304,7 @@ nav {
 
 .btn {
 	font-family: var(--pixel);
-	font-size: 0.55rem;
+	font-size: 0.85rem;
 	letter-spacing: 1px;
 	padding: 1rem 1.8rem;
 	border: none;
@@ -316,8 +318,9 @@ nav {
 
 .btn-primary {
 	background: var(--cyan);
-	color: var(--dark);
+	color: var(#000000);
 	box-shadow: 4px 4px 0 rgba(0, 245, 255, 0.4);
+	font-weight: bold;
 }
 
 .btn-primary:hover {
@@ -330,6 +333,14 @@ nav {
 	color: var(--cyan);
 	border: 2px solid var(--cyan);
 	box-shadow: 4px 4px 0 rgba(0, 245, 255, 0.2);
+	font-weight: bold;
+}
+
+.linkedin-icon {
+	max-width: 100%;  /* Ensures it doesn't exceed the parent width */
+  	height: auto;     /* Maintains the original aspect ratio */
+	padding-top: 17%;
+	padding-left: 10%;
 }
 
 .btn-outline:hover {
@@ -1036,13 +1047,13 @@ footer {
 
 .footer-text {
 	font-family: var(--mono);
-	font-size: 0.75rem;
+	font-size: 0.90rem;
 	color: var(--muted);
 }
 
 .footer-made {
 	font-family: var(--mono);
-	font-size: 0.7rem;
+	font-size: 0.90rem;
 	color: var(--muted);
 }
 
@@ -1086,6 +1097,7 @@ footer {
 
 	.nav-links {
 		gap: 1.2rem;
+		align-self: center;
 	}
 
 	section,
